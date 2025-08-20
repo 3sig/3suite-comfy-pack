@@ -1,0 +1,34 @@
+{
+  "1": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "CPackInputString",
+    "_meta": {
+      "title": "prompt",
+      "options": {}
+    }
+  },
+  "2": {
+    "inputs": {
+      "filename_prefix": "cpack_output_",
+      "images": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "CPackOutputImage",
+    "_meta": {
+      "title": "image"
+    }
+  },
+  "4": {
+    "inputs": {
+      "image": "example.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  }
+}
