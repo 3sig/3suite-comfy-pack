@@ -10,6 +10,7 @@
     "release:major": "node .3suite-utils/version-and-tag.js major"
   },
   "dependencies": {
-    "3lib-config": "github:3sig/3lib-config"
+    "3lib-config": "github:3sig/3lib-config",
+    "chokidar": "^4.0.3"
   }
 }

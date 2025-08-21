@@ -1,15 +1,16 @@
 {
+  verbose: true,
   endpoints: [
     {
       url: "localhost:8188",
       workflows: [
         {
-          port: 6000,
-          workflow: "test-txt2img.json"
+          port: 6008,
+          workflow: "test-img2img.json"
         },
         {
-          port: 6001,
-          workflow: "test-img2img.json"
+          port: 6009,
+          workflow: "test-txt2img.json"
         }
       ]
     }
